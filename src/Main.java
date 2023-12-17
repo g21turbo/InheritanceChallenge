@@ -27,6 +27,7 @@ public class Main {
         HourlyEmployee kayla = new HourlyEmployee("Kayla", "08/03/1985", "03/17/2021", 24);
         System.out.println(kayla);
         System.out.println("Kayla's biweekly pay is $" + kayla.collectPay());
+        System.out.println("Kayla's holiday pay is $" + kayla.getDoublePay() + "/hr");
 
     }
 }
